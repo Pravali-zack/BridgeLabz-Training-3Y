@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>File Upload Form</title>
+</head>
+
+<body>
+
+    <h1>File Upload Form</h1>
+
+    <!-- Note about allowed file types -->
+    <p>Only JPG and PNG image files are allowed.</p>
+
+    <form>
+
+        <!-- File upload field -->
+        <label for="image">Choose an image:</label>
+        <input
+            type="file"
+            id="image"
+            name="image"
+            accept=".jpg, .png"
+            required>
+
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Upload">
+
+    </form>
+
+</body>
+
+</html>

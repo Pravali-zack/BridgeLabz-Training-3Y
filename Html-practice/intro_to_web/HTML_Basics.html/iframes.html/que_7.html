@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Login Form</title>
+</head>
+
+<body>
+
+    <h1>Login Form</h1>
+
+    <form>
+
+        <!-- Username field -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+
+        <!-- Password field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!--
+            CSRF token helps protect a form from
+            Cross-Site Request Forgery attacks.
+            It verifies that the request comes from
+            the legitimate website.
+        -->
+        <input type="hidden" name="csrf_token" value="dummy123">
+
+        <!-- Submit button -->
+        <input type="submit" value="Login">
+
+    </form>
+
+</body>
+
+</html>

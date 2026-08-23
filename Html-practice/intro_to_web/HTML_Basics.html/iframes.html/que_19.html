@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Security</title>
+</head>
+
+<body>
+
+    <h1>Secure Registration Form</h1>
+
+    <!-- autocomplete="off" prevents the browser from automatically filling form data -->
+    <form autocomplete="off">
+
+        <!-- Name -->
+        <label for="name">Name:</label><br>
+        <input type="text"
+               id="name"
+               name="name"
+               placeholder="Enter your name"
+               required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               required>
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label><br>
+        <input type="password"
+               id="password"
+               name="password"
+               placeholder="Enter your password"
+               required>
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <!-- Security note -->
+    <p>
+        Turning off autocomplete can improve security by reducing the chance
+        that sensitive information is automatically stored or filled in by
+        the browser, especially on shared or public computers.
+    </p>
+
+</body>
+
+</html>

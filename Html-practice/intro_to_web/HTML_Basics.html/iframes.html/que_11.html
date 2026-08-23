@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Information Form</title>
+</head>
+
+<body>
+
+    <h1>Student Information</h1>
+
+    <form>
+
+        <!-- Name -->
+        <label for="name">Name:</label><br>
+        <input type="text"
+               id="name"
+               name="name"
+               placeholder="Enter your name"
+               required>
+        <br><br>
+
+        <!-- Roll Number -->
+        <label for="rollno">Roll Number:</label><br>
+        <input type="text"
+               id="rollno"
+               name="rollno"
+               placeholder="Enter your roll number"
+               required>
+        <br><br>
+
+        <!-- Course Dropdown -->
+        <label for="course">Course:</label><br>
+        <select id="course" name="course" required>
+
+            <!-- Default option -->
+            <option value="" disabled selected>Select Course</option>
+
+            <option value="btech">B.Tech</option>
+            <option value="bca">BCA</option>
+            <option value="mca">MCA</option>
+            <option value="bsc">B.Sc</option>
+
+        </select>
+
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>

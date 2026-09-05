@@ -1,0 +1,51 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color: aqua;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+.team{
+    display: flex;
+    justify-content:center;
+    gap: 20;
+}
+
+.card{
+    background-color: white;
+    width: 250;
+    padding: 25px;
+    margin:10px;
+
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.card h3{
+    color:1b4956;
+}
+
+.team-lead{
+    background-color: #d8f3dc;
+     border: 3px dashed
+}
+
+@media (max-width: 768px) { 
+    
+    .team {
+         flex-direction: column; 
+        align-items: center;
+     } 
+
+     .card { 
+        width: 80%;
+     } 
+
+    }

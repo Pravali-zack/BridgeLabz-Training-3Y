@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 40px;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f7fb;
+    text-align: center;
+}
+
+
+/* Pricing Container */
+
+.pricing {
+    display: flex;
+
+    gap: 20px;
+
+    align-items: stretch;
+
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+
+/* Pricing Plans */
+
+.plan {
+    flex: 1;
+
+    padding: 30px;
+
+    background-color: white;
+
+    border: 2px solid #ccc;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+    /* Smooth hover animation */
+    transition: 0.3s;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Plan Heading */
+
+.plan h2 {
+    color: #264653;
+}
+
+
+/* Price */
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+
+    margin: 20px 0;
+}
+
+
+/* Features */
+
+.plan ul {
+    text-align: left;
+
+    line-height: 2;
+
+    flex: 1;
+}
+
+
+/* Button */
+
+.btn {
+    display: inline-block;
+
+    padding: 12px 20px;
+
+    background-color: #264653;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 6px;
+}
+
+
+/* Hover Effect */
+
+.plan:hover {
+    transform: scale(1.05);
+
+    background-color: #e0f2fe;
+}
+
+
+/* Popular Plan */
+
+.popular {
+    border: 3px solid #e76f51;
+    background-color: #fff3e0;
+}

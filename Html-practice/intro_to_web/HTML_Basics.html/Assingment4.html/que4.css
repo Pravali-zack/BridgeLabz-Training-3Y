@@ -1,0 +1,48 @@
+ body{
+    margin: 0;
+    color: #222;
+    background-color: burlywood;
+    font-family: Arial,  sans-serif;
+ }
+
+ header { background-color: #264653;  
+    color: white;
+    text-align: center;
+    padding: 30px; 
+ }
+
+header h1 { 
+        margin: 0;
+        font-size: 40px; 
+    }
+
+    article { width: 70%;  
+        margin: 30px auto;
+         line-height: 1.7; 
+        }
+
+
+article p{
+    margin-bottom: 15px;
+}
+
+article p::first-letter {
+    font-size: 2em;
+}
+
+article p::first-line {
+    font-weight: bold;
+}
+
+mark {
+    background-color: lightblue;
+}
+
+blockquote {
+    margin: 30px 0; 
+    padding: 20px;
+     border-left: 6px solid #264653;
+      background-color: #dbe7e9; 
+      font-size: 20px; 
+      font-style: italic;
+}

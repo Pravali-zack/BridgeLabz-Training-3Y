@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.pricing {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    width: 280px;
+    padding: 40px;
+    text-align: center;
+    background-color: lightgray;
+    transition: 0.3s;
+
+    animation: fadeIn 1s ease-in;
+}
+
+.middle {
+    transform: scale(1.1);
+    background-color: lightblue;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Mobile */
+@media (max-width: 750px) {
+    .pricing {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .middle {
+        transform: scale(1);
+    }
+}

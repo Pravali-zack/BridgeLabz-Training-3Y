@@ -82,3 +82,34 @@ footer {
     text-align: center;
 }
 
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.about {
+    width: 50%;
+}
+
+.about h2 {
+    font-size: 35px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.image {
+    width: 40%;
+    text-align: center;
+}
+
+.image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+

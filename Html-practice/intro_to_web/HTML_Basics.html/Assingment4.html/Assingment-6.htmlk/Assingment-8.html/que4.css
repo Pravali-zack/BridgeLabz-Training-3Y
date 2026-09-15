@@ -1,0 +1,51 @@
+/* Element selector */
+p {
+    margin: 10px;
+}
+
+/* Class selector */
+.special {
+    color: blue;
+}
+
+/* ID selector */
+#unique {
+    color: red;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    border: 2px solid green;
+    padding: 10px;
+}
+
+/* Descendant selector */
+div p {
+    background: yellow;
+}
+
+/* Child combinator */
+ul > li {
+    color: purple;
+}
+
+/* Adjacent sibling */
+h3 + p {
+    color: orange;
+}
+
+/* General sibling */
+h3 ~ p {
+    font-weight: bold;
+}
+
+/* ID selector */
+#main-heading {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+}

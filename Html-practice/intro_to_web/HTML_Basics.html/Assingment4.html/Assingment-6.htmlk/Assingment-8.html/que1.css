@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background: #333;
+    color: white;
+}
+
+.examples {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.example {
+    width: 220px;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 3px 8px #aaa;
+}
+
+.example h2 {
+    margin-bottom: 15px;
+}
+
+.example p {
+    margin-top: 15px;
+}
+
+/* :hover */
+.example a {
+    padding: 10px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+}
+
+.example a:hover {
+    background: red;
+}
+
+/* :focus */
+.example button {
+    padding: 10px;
+}
+
+.example button:focus {
+    outline: 3px solid blue;
+}
+
+/* :active */
+.active-btn:active {
+    background: green;
+    color: white;
+}
+
+/* :nth-child() */
+.example li {
+    list-style: none;
+    padding: 8px;
+}
+
+.example li:nth-child(2) {
+    background: yellow;
+}
+
+.example li:nth-child(4) {
+    background: orange;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}

@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.animations {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* Moving box */
+.box {
+    width: 60px;
+    height: 60px;
+    background: blue;
+
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(-50px);
+    }
+
+    to {
+        transform: translateX(50px);
+    }
+}
+
+/* Bouncing ball */
+.ball {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+
+    animation: bounce 1s ease-in-out infinite alternate;
+    animation-delay: 0.5s;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(-50px);
+    }
+
+    to {
+        transform: translateY(50px);
+    }
+}
+
+/* Color-changing text */
+h1 {
+    animation: colorChange 2s ease-in-out infinite alternate;
+}
+
+@keyframes colorChange {
+    from {
+        color: blue;
+    }
+
+    to {
+        color: red;
+    }
+}

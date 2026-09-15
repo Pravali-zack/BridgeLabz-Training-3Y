@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.buttons {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 3px 8px #aaa;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.primary {
+    background: blue;
+    color: white;
+}
+
+.secondary {
+    background: green;
+    color: white;
+}
+
+.outline {
+    background: white;
+    border: 2px solid blue;
+    color: blue;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: 3px solid lightblue;
+}
+
+button:disabled {
+    background: gray;
+    color: white;
+    cursor: not-allowed;
+}

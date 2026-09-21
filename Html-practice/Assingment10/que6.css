@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.summary {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    margin-top: 20px;
+}

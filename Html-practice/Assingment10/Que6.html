@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Notifications Dashboard</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="que6.css">
+</head>
+
+<body>
+
+    <header class="bg-primary text-white text-center p-4">
+        <h1>Notifications Dashboard</h1>
+    </header>
+
+    <main class="container py-5">
+
+        <div class="card shadow-sm p-4">
+
+            <h2 class="mb-4">Your Notifications</h2>
+
+            <!-- Success Alert -->
+            <div class="alert alert-success">
+                You have received a new message.
+            </div>
+
+            <!-- Info Alert -->
+            <div class="alert alert-info">
+                Tip: Update your profile information regularly.
+            </div>
+
+            <!-- Danger Alert -->
+            <div class="alert alert-danger">
+                Warning: Your password will expire soon.
+            </div>
+
+            <!-- Dismissible Alert -->
+            <div class="alert alert-warning alert-dismissible fade show">
+                Your account security settings need attention.
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="alert">
+                </button>
+            </div>
+
+            <!-- Summary Well -->
+            <section class="summary bg-light p-4">
+                <h3>Summary</h3>
+
+                <p>
+                    You have 3 new notifications and 1 security warning.
+                </p>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer class="text-center bg-dark text-white p-3">
+        © 2026 Notification Center
+    </footer>
+
+</body>
+</html>
